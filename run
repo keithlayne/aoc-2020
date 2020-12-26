@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# example: ./run 12
+
+echo "Day ${1}:\n"
+
+racket day${1}/solution.rkt < day${1}/input.txt
